@@ -741,6 +741,58 @@ export default function Home() {
                 </ScrollAnimation>
               </div>
             </section>
+
+            {/* Ключевые преимущества */}
+            <section className="py-20 bg-white border-t-2 border-gray-100">
+              <div className="container mx-auto px-4">
+                <div className="max-w-6xl mx-auto">
+                  <ScrollAnimation animation="fade-up">
+                    <h2 className="text-3xl md:text-4xl font-bold text-center mb-3">Преимущества работы с нами</h2>
+                    <p className="text-center text-gray-600 mb-12 text-lg">
+                      Мы делаем процесс пригона простым, безопасным и прозрачным
+                    </p>
+                  </ScrollAnimation>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <ScrollAnimation animation="scale-up" delay={0}>
+                      <div className="bg-gradient-to-br from-red-50 to-white p-6 rounded-2xl border-2 border-blue-100 hover:border-blue-300 transition-all hover:shadow-xl h-full">
+                        <div className="bg-red-600 w-16 h-16 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+                          <Search className="h-8 w-8 text-white" />
+                        </div>
+                        <h3 className="text-xl font-bold mb-2 text-gray-900">Быстрый подбор авто</h3>
+                        <p className="text-gray-600 leading-relaxed">
+                          Находим идеальный вариант под ваш бюджет и требования за 3-5 дней
+                        </p>
+                      </div>
+                    </ScrollAnimation>
+
+                    <ScrollAnimation animation="scale-up" delay={100}>
+                      <div className="bg-gradient-to-br from-green-50 to-white p-6 rounded-2xl border-2 border-blue-100 hover:border-blue-300 transition-all hover:shadow-xl h-full">
+                        <div className="bg-green-600 w-16 h-16 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+                          <FileCheck className="h-8 w-8 text-white" />
+                        </div>
+                        <h3 className="text-xl font-bold mb-2 text-gray-900">Юридическая чистота</h3>
+                        <p className="text-gray-600 leading-relaxed">
+                          Проверяем историю по всем базам, гарантируем отсутствие проблем
+                        </p>
+                      </div>
+                    </ScrollAnimation>
+
+                    <ScrollAnimation animation="scale-up" delay={200}>
+                      <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-2xl border-2 border-blue-100 hover:border-blue-300 transition-all hover:shadow-xl h-full">
+                        <div className="bg-blue-600 w-16 h-16 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+                          <Truck className="h-8 w-8 text-white" />
+                        </div>
+                        <h3 className="text-xl font-bold mb-2 text-gray-900">Доставка под ключ</h3>
+                        <p className="text-gray-600 leading-relaxed">
+                          Берём на себя всё: от покупки до постановки на учёт в России
+                        </p>
+                      </div>
+                    </ScrollAnimation>
+                  </div>
+                </div>
+              </div>
+            </section>
           </TabsContent>
 
           {/* О компании */}
@@ -1486,58 +1538,6 @@ export default function Home() {
           </TabsContent>
         </Tabs>
       </div>
-
-      {/* Ключевые преимущества */}
-      <section className="py-20 bg-white border-t-2 border-gray-100">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <ScrollAnimation animation="fade-up">
-              <h2 className="text-3xl md:text-4xl font-bold text-center mb-3">Преимущества работы с нами</h2>
-              <p className="text-center text-gray-600 mb-12 text-lg">
-                Мы делаем процесс пригона простым, безопасным и прозрачным
-              </p>
-            </ScrollAnimation>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <ScrollAnimation animation="scale-up" delay={0}>
-                <div className="bg-gradient-to-br from-red-50 to-white p-6 rounded-2xl border-2 border-blue-100 hover:border-blue-300 transition-all hover:shadow-xl h-full">
-                  <div className="bg-red-600 w-16 h-16 rounded-xl flex items-center justify-center mb-4 shadow-lg">
-                    <Search className="h-8 w-8 text-white" />
-                  </div>
-                  <h3 className="text-xl font-bold mb-2 text-gray-900">Быстрый подбор авто</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Находим идеальный вариант под ваш бюджет и требования за 3-5 дней
-                  </p>
-                </div>
-              </ScrollAnimation>
-
-              <ScrollAnimation animation="scale-up" delay={100}>
-                <div className="bg-gradient-to-br from-green-50 to-white p-6 rounded-2xl border-2 border-blue-100 hover:border-blue-300 transition-all hover:shadow-xl h-full">
-                  <div className="bg-green-600 w-16 h-16 rounded-xl flex items-center justify-center mb-4 shadow-lg">
-                    <FileCheck className="h-8 w-8 text-white" />
-                  </div>
-                  <h3 className="text-xl font-bold mb-2 text-gray-900">Юридическая чистота</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Проверяем историю по всем базам, гарантируем отсутствие проблем
-                  </p>
-                </div>
-              </ScrollAnimation>
-
-              <ScrollAnimation animation="scale-up" delay={200}>
-                <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-2xl border-2 border-blue-100 hover:border-blue-300 transition-all hover:shadow-xl h-full">
-                  <div className="bg-blue-600 w-16 h-16 rounded-xl flex items-center justify-center mb-4 shadow-lg">
-                    <Truck className="h-8 w-8 text-white" />
-                  </div>
-                  <h3 className="text-xl font-bold mb-2 text-gray-900">Доставка под ключ</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Берём на себя всё: от покупки до постановки на учёт в России
-                  </p>
-                </div>
-              </ScrollAnimation>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Footer */}
       <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
