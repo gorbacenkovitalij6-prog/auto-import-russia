@@ -1433,28 +1433,6 @@ export default function Home() {
                     </ScrollAnimation>
                   </div>
 
-                  {/* Карта */}
-                  <ScrollAnimation animation="fade-up">
-                    <div className="mb-16">
-                      <h3 className="text-2xl font-bold mb-6 text-center">Где мы находимся</h3>
-                      <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-                        <iframe
-                          src="https://yandex.ru/map-widget/v1/?ll=49.418622%2C53.483742&z=16&l=map&pt=49.418622,53.483742,pm2rdm"
-                          width="100%"
-                          height="450"
-                          frameBorder="0"
-                          className="w-full"
-                          title="Карта офиса"
-                        />
-                      </div>
-                      <div className="mt-4 text-center">
-                        <p className="text-gray-600 text-sm">
-                          <strong>Адрес:</strong> 445017, Самарская обл., г. Тольятти, ул. Борковская, д. 54, офис 20
-                        </p>
-                      </div>
-                    </div>
-                  </ScrollAnimation>
-
                   {/* Способы связи */}
                   <ScrollAnimation animation="fade-up">
                     <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl shadow-lg p-8">
