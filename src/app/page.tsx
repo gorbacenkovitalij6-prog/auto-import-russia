@@ -501,16 +501,6 @@ export default function Home() {
                             Задать вопрос в Telegram
                           </a>
                         </Button>
-                        <Button
-                          size="lg"
-                          className="bg-gradient-to-r from-[#25D366] to-[#128C7E] hover:from-[#128C7E] hover:to-[#075E54] text-white text-lg px-8 py-6 shadow-xl"
-                          asChild
-                        >
-                          <a href="https://wa.me/79010781031" target="_blank" rel="noopener noreferrer">
-                            <MessageCircle className="mr-2 h-5 w-5" />
-                            Задать вопрос в WhatsApp
-                          </a>
-                        </Button>
                         <ContactForm />
                       </div>
                     </div>
