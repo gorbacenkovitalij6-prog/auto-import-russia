@@ -59,7 +59,7 @@ export function MobileMenu() {
               className="w-full bg-[#0088cc] hover:bg-[#006699] text-lg py-6"
               asChild
             >
-              <a href="https://t.me/+79010781031" target="_blank" rel="noopener noreferrer">
+              <a href="https://t.me/bta_torg" target="_blank" rel="noopener noreferrer">
                 <Send className="mr-2 h-5 w-5" />
                 Telegram
               </a>

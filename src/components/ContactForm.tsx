@@ -194,7 +194,7 @@ export function ContactFormButton() {
 
           <div className="space-y-3 mt-4">
             <a
-              href="https://t.me/+79010781031"
+              href="https://t.me/bta_torg"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 bg-[#0088cc] hover:bg-[#006699] rounded-xl p-4 transition-colors"

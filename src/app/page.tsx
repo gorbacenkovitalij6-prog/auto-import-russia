@@ -51,7 +51,7 @@ export default function Home() {
                     className="hidden sm:flex bg-[#0088cc] hover:bg-[#006699]"
                     asChild
                   >
-                    <a href="https://t.me/+79010781031" target="_blank" rel="noopener noreferrer">
+                    <a href="https://t.me/bta_torg" target="_blank" rel="noopener noreferrer">
                       <Send className="mr-2 h-4 w-4" />
                       Telegram
                     </a>
@@ -98,7 +98,7 @@ export default function Home() {
                       className="bg-[#0088cc] hover:bg-[#006699] text-lg px-8 py-6 shadow-2xl pulse-slow shine"
                       asChild
                     >
-                      <a href="https://t.me/+79010781031" target="_blank" rel="noopener noreferrer">
+                      <a href="https://t.me/bta_torg" target="_blank" rel="noopener noreferrer">
                         <Send className="mr-2 h-5 w-5 bounce-subtle" />
                         Смотреть авто в Telegram
                       </a>
@@ -229,7 +229,7 @@ export default function Home() {
                           className="bg-gradient-to-r from-[#0088cc] to-[#006699] hover:from-[#006699] hover:to-[#005588] text-white text-lg px-8 py-6 shadow-xl"
                           asChild
                         >
-                          <a href="https://t.me/+79010781031" target="_blank" rel="noopener noreferrer">
+                          <a href="https://t.me/bta_torg" target="_blank" rel="noopener noreferrer">
                             <Send className="mr-2 h-5 w-5" />
                             Связаться в Telegram
                           </a>
@@ -492,7 +492,7 @@ export default function Home() {
                           className="bg-gradient-to-r from-[#0088cc] to-[#006699] hover:from-[#006699] hover:to-[#005588] text-white text-lg px-8 py-6 shadow-xl"
                           asChild
                         >
-                          <a href="https://t.me/+79010781031" target="_blank" rel="noopener noreferrer">
+                          <a href="https://t.me/bta_torg" target="_blank" rel="noopener noreferrer">
                             <Send className="mr-2 h-5 w-5" />
                             Задать вопрос в Telegram
                           </a>
@@ -553,7 +553,7 @@ export default function Home() {
                     className="bg-white text-[#0088cc] hover:bg-gray-100 text-xl px-12 py-7 font-bold shadow-2xl pulse-slow hover-lift"
                     asChild
                   >
-                    <a href="https://t.me/your_channel" target="_blank" rel="noopener noreferrer">
+                    <a href="https://t.me/bta_torg" target="_blank" rel="noopener noreferrer">
                       Перейти в Telegram
                     </a>
                   </Button>
@@ -730,7 +730,7 @@ export default function Home() {
                         className="bg-gradient-to-r from-[#0088cc] to-[#006699] hover:from-[#006699] hover:to-[#005588] text-white text-lg px-8 py-6 shadow-xl"
                         asChild
                       >
-                        <a href="https://t.me/+79010781031" target="_blank" rel="noopener noreferrer">
+                        <a href="https://t.me/bta_torg" target="_blank" rel="noopener noreferrer">
                           <Send className="mr-2 h-5 w-5" />
                           Начать подбор авто
                         </a>
@@ -1034,7 +1034,7 @@ export default function Home() {
                           className="bg-white text-[#0088cc] hover:bg-gray-100 text-xl px-12 py-7 font-bold shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105"
                           asChild
                         >
-                          <a href="https://t.me/your_channel" target="_blank" rel="noopener noreferrer">
+                          <a href="https://t.me/bta_torg" target="_blank" rel="noopener noreferrer">
                             <Send className="mr-3 h-6 w-6" />
                             Перейти в Telegram канал
                           </a>
@@ -1360,13 +1360,13 @@ export default function Home() {
                             </div>
                           </a>
 
-                          <a href="https://t.me/+79010781031" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
+                          <a href="https://t.me/bta_torg" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
                             <div className="bg-white/20 p-3 rounded-lg group-hover:bg-white/30 transition-colors">
                               <Send className="h-6 w-6" />
                             </div>
                             <div>
                               <div className="text-sm text-white/80">Telegram</div>
-                              <div className="font-bold text-lg">@your_username</div>
+                              <div className="font-bold text-lg">@bta_torg</div>
                               <div className="text-sm text-white/70">Самый быстрый способ связи</div>
                             </div>
                           </a>
@@ -1412,7 +1412,7 @@ export default function Home() {
                             className="w-full text-lg py-6 bg-[#0088cc] hover:bg-[#006699]"
                             asChild
                           >
-                            <a href="https://t.me/+79010781031" target="_blank" rel="noopener noreferrer">
+                            <a href="https://t.me/bta_torg" target="_blank" rel="noopener noreferrer">
                               <Send className="mr-2 h-5 w-5" />
                               Написать в Telegram
                             </a>
@@ -1482,7 +1482,7 @@ export default function Home() {
                           <p className="text-gray-600 text-sm mb-4">
                             Быстрые ответы в мессенджере
                           </p>
-                          <a href="https://t.me/+79010781031" target="_blank" rel="noopener noreferrer" className="text-red-600 font-semibold hover:text-blue-700">
+                          <a href="https://t.me/bta_torg" target="_blank" rel="noopener noreferrer" className="text-red-600 font-semibold hover:text-blue-700">
                             Написать →
                           </a>
                         </div>
@@ -1585,7 +1585,7 @@ export default function Home() {
                   className="bg-[#0088cc] hover:bg-[#006699]"
                   asChild
                 >
-                  <a href="https://t.me/your_channel" target="_blank" rel="noopener noreferrer">
+                  <a href="https://t.me/bta_torg" target="_blank" rel="noopener noreferrer">
                     <Send className="mr-2 h-4 w-4" />
                     Написать в Telegram
                   </a>
@@ -1609,7 +1609,7 @@ export default function Home() {
                   </div>
                   <span>info@example.com</span>
                 </a>
-                <a href="https://t.me/+79010781031" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray-300 hover:text-red-500 transition-colors group">
+                <a href="https://t.me/bta_torg" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray-300 hover:text-red-500 transition-colors group">
                   <div className="bg-gray-800 p-2 rounded-lg group-hover:bg-red-600 transition-colors">
                     <Send className="h-4 w-4" />
                   </div>
