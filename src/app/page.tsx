@@ -55,7 +55,7 @@ export default function Home() {
                     className="hidden sm:flex bg-[#0088cc] hover:bg-[#006699]"
                     asChild
                   >
-                    <a href="https://t.me/your_channel" target="_blank" rel="noopener noreferrer">
+                    <a href="https://t.me/+79010781031" target="_blank" rel="noopener noreferrer">
                       <Send className="mr-2 h-4 w-4" />
                       Telegram
                     </a>
@@ -102,7 +102,7 @@ export default function Home() {
                       className="bg-[#0088cc] hover:bg-[#006699] text-lg px-8 py-6 shadow-2xl pulse-slow shine"
                       asChild
                     >
-                      <a href="https://t.me/your_channel" target="_blank" rel="noopener noreferrer">
+                      <a href="https://t.me/+79010781031" target="_blank" rel="noopener noreferrer">
                         <Send className="mr-2 h-5 w-5 bounce-subtle" />
                         Смотреть авто в Telegram
                       </a>
@@ -233,7 +233,7 @@ export default function Home() {
                           className="bg-gradient-to-r from-[#0088cc] to-[#006699] hover:from-[#006699] hover:to-[#005588] text-white text-lg px-8 py-6 shadow-xl"
                           asChild
                         >
-                          <a href="https://t.me/your_channel" target="_blank" rel="noopener noreferrer">
+                          <a href="https://t.me/+79010781031" target="_blank" rel="noopener noreferrer">
                             <Send className="mr-2 h-5 w-5" />
                             Связаться в Telegram
                           </a>
@@ -496,9 +496,19 @@ export default function Home() {
                           className="bg-gradient-to-r from-[#0088cc] to-[#006699] hover:from-[#006699] hover:to-[#005588] text-white text-lg px-8 py-6 shadow-xl"
                           asChild
                         >
-                          <a href="https://t.me/your_channel" target="_blank" rel="noopener noreferrer">
+                          <a href="https://t.me/+79010781031" target="_blank" rel="noopener noreferrer">
                             <Send className="mr-2 h-5 w-5" />
                             Задать вопрос в Telegram
+                          </a>
+                        </Button>
+                        <Button
+                          size="lg"
+                          className="bg-gradient-to-r from-[#25D366] to-[#128C7E] hover:from-[#128C7E] hover:to-[#075E54] text-white text-lg px-8 py-6 shadow-xl"
+                          asChild
+                        >
+                          <a href="https://wa.me/79010781031" target="_blank" rel="noopener noreferrer">
+                            <MessageCircle className="mr-2 h-5 w-5" />
+                            Задать вопрос в WhatsApp
                           </a>
                         </Button>
                         <ContactForm />
@@ -734,7 +744,7 @@ export default function Home() {
                         className="bg-gradient-to-r from-[#0088cc] to-[#006699] hover:from-[#006699] hover:to-[#005588] text-white text-lg px-8 py-6 shadow-xl"
                         asChild
                       >
-                        <a href="https://t.me/your_channel" target="_blank" rel="noopener noreferrer">
+                        <a href="https://t.me/+79010781031" target="_blank" rel="noopener noreferrer">
                           <Send className="mr-2 h-5 w-5" />
                           Начать подбор авто
                         </a>
