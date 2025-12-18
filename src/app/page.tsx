@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ContactForm, ContactFormButton } from "@/components/ContactForm";
+import { ContactForm } from "@/components/ContactForm";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
 import { MobileTabsMenu } from "@/components/MobileTabsMenu";
 import {
@@ -47,10 +47,6 @@ export default function Home() {
                 </TabsList>
 
                 <div className="flex items-center gap-4">
-                  <div className="hidden md:block">
-                    <ContactFormButton />
-                  </div>
-
                   <Button
                     className="hidden sm:flex bg-[#0088cc] hover:bg-[#006699]"
                     asChild
@@ -1411,17 +1407,6 @@ export default function Home() {
                         </p>
 
                         <div className="space-y-4">
-                          <ContactFormButton />
-
-                          <div className="relative">
-                            <div className="absolute inset-0 flex items-center">
-                              <div className="w-full border-t border-gray-300"></div>
-                            </div>
-                            <div className="relative flex justify-center text-sm">
-                              <span className="px-2 bg-gray-50 text-gray-500">или</span>
-                            </div>
-                          </div>
-
                           <Button
                             size="lg"
                             className="w-full text-lg py-6 bg-[#0088cc] hover:bg-[#006699]"

@@ -173,17 +173,17 @@ export function ContactFormButton() {
   return (
     <>
       {/* Floating button */}
-      <Button
-        size="lg"
+      <button
         onClick={() => setOpen(!open)}
-        className="fixed bottom-6 right-6 z-50 w-16 h-16 rounded-full bg-green-600 hover:bg-green-700 shadow-2xl p-0"
+        className="fixed bottom-6 right-6 z-[9999] w-16 h-16 rounded-full bg-green-600 hover:bg-green-700 shadow-2xl p-0 flex items-center justify-center text-white transition-colors"
+        style={{ position: 'fixed', bottom: '1.5rem', right: '1.5rem' }}
       >
         {open ? <X className="h-6 w-6" /> : <MessageCircle className="h-6 w-6" />}
-      </Button>
+      </button>
 
       {/* Contact options popup */}
       {open && (
-        <div className="fixed bottom-24 right-6 z-50 w-80 bg-gradient-to-br from-green-600 to-green-700 rounded-2xl shadow-2xl p-6 text-white animate-in slide-in-from-bottom-5">
+        <div className="fixed bottom-24 right-6 z-[9999] w-80 bg-gradient-to-br from-green-600 to-green-700 rounded-2xl shadow-2xl p-6 text-white animate-in slide-in-from-bottom-5" style={{ position: 'fixed', bottom: '6rem', right: '1.5rem' }}>
           <div className="flex items-center gap-3 mb-1">
             <MessageCircle className="h-6 w-6" />
             <div>
